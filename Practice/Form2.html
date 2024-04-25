@@ -1,0 +1,43 @@
+<html>
+    <title>
+        Form
+    </title>
+    <head>
+
+    </head>
+    <body>
+        The <ins><del>color</del></ins> is red.
+        <form enctype="multipart/form-data">
+            <p>
+                <label>name:</label> <br>
+                <input type="text" name="name">
+
+            </p>
+            <p>
+                <label>Your education:</label><br>
+                <select name="Education" id="Education">
+                    <option value="BE">BE</option>
+                    <option value="BTECH">B.TECH</option>
+                    <option value="BCA">B.C.A</option>
+                    <option value="BSC">B.Sc</option>
+                </select>
+            </p>
+            <p>
+                <label >You want to apply for the position : </label> <br>
+                <select name="position" id="position">
+                    <option value="Front end developer">Front end developer</option>
+                    <option value="back end developer">back end developer</option>
+                    <option value="Full stack developer">full stack developer</option>
+                </select>
+            </p>
+            <p>
+                Your resume:<br>
+                <input type="file" name="resume">
+
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Sende details">
+            </p>
+        </form>
+    </body>
+</html>

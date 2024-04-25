@@ -1,0 +1,70 @@
+<html>
+    <title>
+        form
+    </title>
+    <head>
+
+    </head>
+    <body>
+        <!--
+        <form method="post">
+            <h2>Login form</h2>
+          
+            <p>User name : <br><input type="text" name="username" placeholder="Enter your user name" size="15" maxlength="25"></p>
+            
+            <p>Pass word : <br><input type="password" name="password" placeholder="enter your password" size="15" maxlength="25"></p>
+            <p><input type="submit" value="send" name="submit"></p>
+            <p>Is this a <br>
+            <input type="radio" name="req_type" value="sales" checked="checked">Sales Request?
+            <input type="radio" name="req_type" value="service">Support request?
+            </p>
+            <p>comments:<br><textarea name="cmd" cols="25" rows="5">Enter your commend</textarea></p>
+        -->
+       
+        <form action="" method="send">
+            <fieldset>
+                <legend> Contact Form</legend>
+                
+            <p><br><input type="text" name="username" id="username"></p>
+            <p>Email:<br><input type="email" name="email"></p>
+            <p>Subject:<br><input type="text" name="subject"></p>
+            <p>I want to learn<br>
+                <input type="radio" name="programmingLanguage" value="HTML" id="htnl" checked="checked"><label for="htnl">HTML</label>
+                <input type="radio" name="programmingLanguage" value="css" id="css"><label for="css">css</label>
+                <input type="radio" name="programmingLanguage" value="js" id="javaScript"><label for="javaScript">Javascript</label>
+            </p>
+            
+            </fieldset>
+            <h1>Check Box</h1>
+            <fieldset>
+                <legend>my hobbeies are</legend><br>
+            <p>
+                
+                <input type="checkbox" name="hob[]" value="plant"> planting <br>
+                <input type="checkbox" name="hob[]" value="draw"> drawing <br>
+                <input type="checkbox" name="hob[]" value="dance"> dancing <br>
+                <input type="checkbox" name="hob[]" value="singing"> singing <br>
+                <input type="checkbox" name="hob[]" value="hiking"> hiking <br>
+                
+            </p>
+            </fieldset>
+            <h1>Select from drop down list</h1>
+            <p>
+                Select your favorite language:<br>
+                <select name="lang" id="langP" multiple size="6">
+                    <option value="">SELECT</option>
+                    <option value="java">Java</option>
+                    <option value="python">python</option>
+                    <option value="c">c</option>
+                    <option value="c++">c++</option>
+                    <option value="Csharp" selected>Csharp</option>
+                    <option value="ruby">ruby</option>
+                    <option value="paskal">paskal</option>
+                    <option value="html">html</option>
+                </select>
+            </p>
+            <p>Message:<br><textarea name="message" rows="5" cols="25" placeholder="Enter your message"></textarea></p>
+            <input type="submit" name="send" value="send message">
+        </form>
+    </body>
+</html>
